@@ -1,0 +1,30 @@
+
+ShipItSquirrel - A Twitter bot that watches for keywords and replies "Ship It!"
+--------------------------------------------------------------------------------
+
+This project is a simple example of how to connect to a single Twitter account
+that one owns, for the purposes of updating, following, or whatever. In this
+silly example, our Twitter bot watches the tweets of friends for keywords and
+replies with "Ship It!" whenever there is a keyword match. 
+
+The ShipItSquirrel pays homage to: (http://shipitsquirrel.github.com) which is
+forever immortalized as the mascot of the web app deployment, namely that there
+is never a perfect version 1.0, only continuous development and deployment. So,
+like ShipItSquirrel says, just "Ship It!". 
+
+================================================================================
+NOTE: YOU MUST GET YOUR OWN TWITTER OAUTH TOKENS FROM TWITTER AND PLACE THEM IN
+THE CREDS.PY FILE FOR AUTHENTICATION TO WORK; CREDS.PY CONTAINS DUMMY DATA
+UNTIL YOU DO SO.
+================================================================================
+
+Features:
+  + Written in Python and utilizing Tweepy library.
+  + Authenticates with OAuth, thus requiring valid access tokens for an account
+  + Demonstrates basic Tweepy usage and simple OAuth authentication 
+
+Author: Kevin Turner (kevin@ksturner.com)
+License: MIT
+Dependencies:
+    Python 2.4 or newer
+    Tweepy 
